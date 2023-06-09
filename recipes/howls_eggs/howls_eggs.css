@@ -1,0 +1,41 @@
+body {
+    background: cornflowerblue;
+    color: whitesmoke;
+    font-size: 22px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 150px;
+}
+
+h2 {
+    font-size: 80px;
+}
+
+p {
+    line-height: 1.5;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    background-color: cornflowerblue;
+    justify-content: space-evenly;
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: whitesmoke;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    color: pink;
+}

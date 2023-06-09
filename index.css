@@ -1,0 +1,56 @@
+body {
+    background: cornflowerblue;
+    color: whitesmoke;
+    font-size: 22px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 150px;
+}
+
+.ghibli-gif {
+    width: 90%;
+    height: auto;
+    margin: 50px auto;
+    padding-bottom: 50px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between; /* This spaces the images out evenly */
+    align-items: center; /* This aligns items vertically */
+    width: 90%; /* Set to same width as .ghibli-gif */
+    margin: 50px auto;
+}
+
+.recipe-image {
+    flex: 1 1 30%;
+    width: auto; /* Sets the width of the images */
+    height: 180px; /* Sets a fixed height */
+    object-fit: cover; /* Ensures images are resized correctly */
+    margin: 0 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .image-container {
+        flex-direction: column; /* This makes the flex container's items stack vertically */
+        align-items: center; /* Align items in the center horizontally when they're stacked vertically */
+    }
+
+    .recipe-image {
+        flex-basis: 100%; /* This makes each image take up the full width of the container */
+    }
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    color: pink;
+}
